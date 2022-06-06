@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { LoadingPageComponent } from './container/loading-page/loading-page.component';
 
-const routes: Routes = [];
+const routes: Routes = [{path: '', component: LoadingPageComponent}];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
